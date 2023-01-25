@@ -12,6 +12,10 @@ console.log(leadsFromLocalStorage)
 // localStorage.setItem("MyName", "Ismail Adeshola Ogundele");
 let myName = localStorage.getItem("myName");
 console.log(myName)
+if (leadsFromLocalStorage) {
+    myName = leadsFromLocalStorage
+    renderLeads()
+}
 
 
 inputBtn.addEventListener("click", function () {
