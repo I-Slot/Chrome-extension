@@ -32,6 +32,15 @@ button {
     padding: 10px 20px;
 }
 
+#delete-btn{
+    background-color: white;
+    color: #5f9341;
+    margin-top: 5px;
+    border:1px solid #5f9341;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
 /* STYLE THE LIST ACCORDING TO THE DESIGN */
 ul {
     margin-top: 20px;
